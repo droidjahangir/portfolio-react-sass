@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import about from '../img/about.jpg';
 
 function ImageSection() {
@@ -12,11 +13,12 @@ function ImageSection() {
           I am<span> Jahangir Alam</span>
         </h4>
         <p className="about-text">
-          I did Bachelor of science in Computer Science from University of 
-          Information Technology & Sciences. I like to travel. I believe 
-          travelling gives you a new perspective to everything. You get to 
-          know a lot about the different cultures, the cuisines, their history, 
-          the language and all the small unique things every place has to offer.
+          I have completed my bachelor degree in Computer Science from
+          University of Information Technology & Sciences. I graduated with cgpa
+          3.08 out of 4.00. I like to travel. I believe travelling gives you a
+          new perspective to everything. You get to know a lot about the
+          different cultures, the cuisines, their history, the language and all
+          the small unique things every place has to offer.
         </p>
         <div className="about-details">
           <div className="left-section">
@@ -36,7 +38,19 @@ function ImageSection() {
             <p>: Bangladesh</p>
           </div>
         </div>
-        <button className="btn">Download Cv</button>
+
+        {/* file need to locate in public directory */}
+        <Link
+          to="/cv/resume.pdf"
+          className="btn"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          Download Cv
+        </Link>
+        {/* <button className="btn">Download Cv</button> */}
+        {/* <a className="btn">Download Cv</a> */}
       </div>
     </div>
   );

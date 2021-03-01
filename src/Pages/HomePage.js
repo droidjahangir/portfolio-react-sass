@@ -3,8 +3,9 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faMedium } from '@fortawesome/free-brands-svg-icons';
+import { faHackerrank } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
@@ -15,29 +16,54 @@ function HomePage() {
           <span> Jahangir Alam.</span>
         </h1>
         <p className="h-sub-text">
-          A Computer science graduate who is seeking to find the opportunity
-          to work in a fun and challenging working environment that will
-          encourage him to improve and learn new and necessary skills as well as
-          be motivated by the company to do his best for the sake of helping
+          A Computer science graduate who is seeking to find the opportunity to
+          work in a fun and challenging working environment that will encourage
+          him to improve and learn new and necessary skills as well as be
+          motivated by the company to do his best for the sake of helping
           himself and the company advancement in the software engineering
           industry.
         </p>
         <div className="icons">
-          <Link
-            to="https://www.facebook.com/mdjahangiralamuits"
+          <a
+            href="https://www.facebook.com/mdjahangiralamuits"
             className="icon-holder"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faFacebook} className="icon fb" />
-          </Link>
-          <Link to="https://github.com/droidjahangir" className="icon-holder">
+          </a>
+          <a
+            href="https://github.com/droidjahangir"
+            className="icon-holder"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faGithub} className="icon gh" />
-          </Link>
-          <Link to="https://jahangir-devs.medium.com/" className="icon-holder">
+          </a>
+          <a
+            href="https://jahangir-devs.medium.com/"
+            className="icon-holder"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faMedium} className="icon med" />
-          </Link>
-          <Link to="https://www.linkedin.com/in/jahangir-alam-90a44a143/" className="icon-holder">
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jahangir-alam-90a44a143/"
+            className="icon-holder"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faLinkedin} className="icon li" />
-          </Link>
+          </a>
+          <a
+            href="https://www.hackerrank.com/jahangir_devs?hr_r=1"
+            className="icon-holder"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faHackerrank} className="icon hr" />
+          </a>
         </div>
       </header>
     </div>

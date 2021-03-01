@@ -8,6 +8,7 @@ import { useState } from 'react';
 const allCategories = [
   'All',
   ...new Set(portfolios.map((item) => item.category)),
+  // set method for getting unique value from portfolios
 ];
 
 function PortfoliosPage() {

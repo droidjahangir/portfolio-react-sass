@@ -14,7 +14,13 @@ function BlogsPage() {
             <div className="blog" key={blog.id}>
               <div className="blog-content">
                 <img src={blog.image} alt="" />
-                <a href={blog.link} className="blog-link">
+                <a
+                  href={blog.link}
+                  className="blog-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {/* we use target attribute for this link open in new tab and rel attribute for security */}
                   {blog.title}
                 </a>
               </div>

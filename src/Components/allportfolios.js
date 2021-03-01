@@ -6,13 +6,15 @@ import port6 from '../img/portImages/youtube.png';
 import port7 from '../img/portImages/unsplash.png';
 import port8 from '../img/portImages/web-scraping.png';
 import port9 from '../img/portImages/node.jpg';
+import insider from '../img/portImages/insider.png'
+import realEstate from '../img/portImages/real-estate.png'
 
 
 
 const portfolios = [
     {
         id: 1,
-        category: 'React',
+        category: 'React Js',
         link1: 'https://github.com/droidjahangir/amazon-clone-react-firebase-stripe',
         link2: 'https://challenge-617a5.web.app/',
         icon1: 'Git',
@@ -23,7 +25,7 @@ const portfolios = [
     },
     {
         id: 2,
-        category: 'React',
+        category: 'React Js',
         link1: 'https://github.com/droidjahangir/covid-19-tracker-react-hooks',
         link2: 'https://covid-19-tracker-a0485.web.app/',
         icon1: 'Git',
@@ -34,7 +36,7 @@ const portfolios = [
     },
     {
         id: 3,
-        category: 'React',
+        category: 'React Js',
         link1: 'https://github.com/droidjahangir/slack-clone',
         link2: 'https://slack-clone-c73a0.web.app/',
         icon1: 'Git',
@@ -49,14 +51,14 @@ const portfolios = [
         link1: 'https://github.com/droidjahangir/instagram-clone',
         link2: 'https://instagram-clone-react-18f44.web.app/',
         icon1: 'Git',
-        icon2: 'Youtube',
+        icon2: 'Live',
         image: port4,
         title: 'Instagram clone',
         description: 'This project is build with React js, hooks, Material ui, firebase and mongodb.'
     },
     {
         id: 5,
-        category: 'React Js',
+        category: 'Javascript',
         link1: 'https://github.com/droidjahangir/react-youtube-clone',
         link2: 'https://clone-29604.web.app/',
         icon1: 'Git',
@@ -89,7 +91,7 @@ const portfolios = [
     },
     {
         id: 8,
-        category: 'node js',
+        category: 'Node Js',
         link1: 'https://github.com/droidjahangir/nodejs-backend-solution',
         link2: 'https://jahangir-devs.medium.com/%E0%A6%A8%E0%A7%8B%E0%A6%A1-node-js-42fb6359b749',
         icon1: 'Git',
@@ -97,6 +99,28 @@ const portfolios = [
         image: port9,
         title: 'Node js backend solution',
         description: 'I have added almost all feature about node js. Such as Authentication, REST api, MongoDB, Sorting, Pagination, Filtering, File upload.'
+    },
+    {
+        id: 9,
+        category: 'Django',
+        link1: 'https://github.com/droidjahangir/insider_travel_agency',
+        link2: 'https://jahangir-devs.medium.com/django-dev-to-deployment-b79736038e53',
+        icon1: 'Git',
+        icon2: 'Blog',
+        image: insider,
+        title: 'Django - Insider Travel Agency',
+        description: 'Insider travel agency is build with Django which is python framework, bootstrap, postgres, Authentication, pagination, filtering and many more.'
+    },
+    {
+        id: 10,
+        category: 'Django',
+        link1: 'https://github.com/droidjahangir/btre_real_estate_project',
+        link2: 'https://jahangir-devs.medium.com/django-dev-to-deployment-b79736038e53',
+        icon1: 'Git',
+        icon2: 'Blog',
+        image: realEstate,
+        title: 'Django - real estate project',
+        description: 'Real estate project is build with Django which is python framework, bootstrap, postgres, Authentication, pagination, filtering and many more.'
     }
 ]
 
