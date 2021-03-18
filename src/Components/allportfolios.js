@@ -45,17 +45,30 @@ const portfolios = [
         title: 'Slack clone',
         description: 'This project is build with Reactjs, Context API, hooks, Material ui, google authentication system, firebase cloud storage and many more.'
     },
+
     {
         id: 4,
         category: 'Javascript',
-        link1: 'https://github.com/droidjahangir/instagram-clone',
-        link2: 'https://instagram-clone-react-18f44.web.app/',
+        link1: 'https://github.com/droidjahangir/quiz-react-redux',
+        link2: 'https://quiz-79aef.web.app/',
         icon1: 'Git',
         icon2: 'Live',
         image: port4,
-        title: 'Instagram clone',
-        description: 'This project is build with React js, hooks, Material ui, firebase and mongodb.'
+        title: 'Quiz project',
+        description: 'This project is build with React js, Redux, Material ui, firebase.'
     },
+
+    // {
+    //     id: 4,
+    //     category: 'Javascript',
+    //     link1: 'https://github.com/droidjahangir/instagram-clone',
+    //     link2: 'https://instagram-clone-react-18f44.web.app/',
+    //     icon1: 'Git',
+    //     icon2: 'Live',
+    //     image: port4,
+    //     title: 'Instagram clone',
+    //     description: 'This project is build with React js, hooks, Material ui, firebase and mongodb.'
+    // },
     {
         id: 5,
         category: 'Javascript',
