@@ -1,7 +1,8 @@
 import port1 from '../img/portImages/amazon-clone.png';
 import port2 from '../img/portImages/covid-19.png';
 import port3 from '../img/portImages/slack.png';
-import port4 from '../img/portImages/instagram.png';
+// import port4 from '../img/portImages/instagram.png';
+import port4 from '../img/portImages/quiz.png';
 import port6 from '../img/portImages/youtube.png';
 import port7 from '../img/portImages/unsplash.png';
 import port8 from '../img/portImages/web-scraping.png';
